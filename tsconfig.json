@@ -2,12 +2,12 @@
   "compilerOptions": {
       "target": "es5",
       "module": "es2015",
-      "jsx": "react",
+      "jsx": "react-jsx",
       "strict": true,
       "esModuleInterop": true,
       "baseUrl": "./",
   },
   "include": [
-    "resources/ts/**/*" // TypeScriptのソース配置場所
-  ]
+    "resources/src/**/*" // TypeScriptのソース配置場所
+, "resources/views/src"  ]
 }
